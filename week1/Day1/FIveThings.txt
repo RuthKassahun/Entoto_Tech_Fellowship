@@ -1,0 +1,8 @@
+Five things we learnt yesterday.
+
+1,Introduction to programming language
+2,How programming languages work
+3,Command Line  
+4,version control
+5, how to fix errores
+6, Wengi is awesome.
