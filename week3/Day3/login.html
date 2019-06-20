@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="./index.css">
+    
+    <script type="text/javascript" src="./ValidateUser.js"></script>
 </head>
 <body>
     <header>
@@ -25,20 +27,21 @@
     </header>
 
     <div class="signupBorder">
-
+<form name="user">
         <h1 style="color: blue;">SIGN IN</h1>
-        Name <input type="text" placeholder="Enter your name here">
+       UserName <input type="text" name="name" placeholder="Enter your name here">
         <br>
         <br>
-        Email <input type="email" placeholder="Enter your email here">
+        Password <input type="password" name="password" placeholder="Enter your password here">
         <br>
         <br>
-        Phone <input type="number" placeholder="Enter your phone 
-         here">
+       
         <br>
         <br>
-        <a href="./home.html"><input style="color: blue; border:solid 10px; border-radius: 50px; " type="button" value="SUBMIT"></a>
-
+        <!-- <a href="./home.html"> -->
+            <input style="color: blue; border:solid 10px; border-radius: 50px; " type="button" onclick="validate()" value="SUBMIT">
+        <!-- </a> -->
+    </form> 
 
     </div>
 
